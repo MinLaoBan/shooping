@@ -1,0 +1,92 @@
+.style_red {
+    color: #c81623;
+}
+.style_red_blue {
+    color: #1ba1e6;
+}
+header {
+    height: 85px;
+}
+header .bottom {
+    height: 65px;
+    border-bottom: 1px solid #b1191a;
+}
+/* 注册表单 */
+.register {
+    height: 520px;
+    border-bottom: 2px solid #dfdfdf;
+}
+.register .hd {
+    height: 40px;
+    line-height: 40px;
+    background-color: #ececec;
+}
+.register .hd h2 {
+    float: left;
+    margin-left: 12px;
+    font-weight: 400;
+}
+.register p {
+    float: right;
+    margin-right: 10px;
+}
+.register .bd {
+    margin:55px 0 0 315px;
+}
+.register .bd input {
+    outline: none;
+}
+.register .bd input[type='tel'] {
+    width: 240px;
+    height: 35px;
+}
+.register .bd input[type='password'] {
+    width: 240px;
+    height: 35px;
+}
+.register .bd ul li {
+    margin-top: 20px;
+}
+.register .bd ul li:nth-of-type(2) {
+    margin-left: -24px;
+}
+.register .bd ul li:nth-of-type(3) {
+    margin-left: -12px;
+}
+.register .bd ul li:nth-of-type(4) {
+    margin-left: -12px;
+}
+.register .bd ul li:nth-of-type(5) {
+    margin: 41px 0 0 47px;
+}
+.register .bd ul li:nth-of-type(6) button {
+    width: 200px;
+    height: 35px;
+    color: #fff;
+    line-height: 35px;
+    background-color: #c81623;
+    border: 0;
+    margin-left: 55px;
+}
+/* 底部 */
+.mod_copyright ul {
+    margin-top: 22px;
+    margin-left: 113px;
+}
+.mod_copyright ul li {
+    float: left;
+    margin: 0 7px;
+}
+.mod_copyright ul li:nth-of-type(2n) {
+    content: "";
+    width: 1px;
+    height: 12px;
+    background-color: #999;
+    margin-top: 3px;
+}
+.mod_copyright p:nth-of-type(1) {
+    margin-left: 245px;
+}
+.mod_copyright p:last-of-type {
+    margin-left: 473px;
+}

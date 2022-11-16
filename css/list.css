@@ -1,0 +1,154 @@
+a {
+    font-size: 12px;
+}
+.style_red {
+    color: #b1191a;
+}
+header .bottom h1 a:first-of-type {
+    float: left;
+    display: block;
+    width: 177px;
+    height: 55px;
+    font-size: 0;
+    background-image: url(../images/logo.png);
+    background-position: 2px 0px;
+}
+header .bottom h1 .miaosha {
+    float: left;
+    width: 71px;
+    height: 33px;
+    border-left: 1px solid #b1191a;
+    margin: 14px 0 0 10px;
+}
+header .bottom h1 .miaosha a {
+    float: left;
+    display: block;
+    width: 57px;
+    height: 28px;
+    font-size: 0;
+    background-image: url(../images/miaoSha.png);
+    background-repeat: no-repeat;
+    margin: 2px 14px 0 10px;
+}
+header .bottom .search {
+    margin-left: 107px;
+}
+/* 内容部分 */
+/* 内容头部 */
+.article .article-hd {
+    height: 46px;
+    padding: 0 162px;
+    border-bottom: 2px solid #b1191a;
+}
+.article .article-hd ul {
+    line-height: 46px;
+}
+.article .article-hd ul li {
+    float: left;
+    font-size: 14px;
+    margin-left: 55px;
+}
+.article .article-hd ul li:first-of-type {
+    margin-left: 29px;
+}
+.article .article-hd ul li:nth-of-type(-n+3) a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.article .article-hd ul li:last-of-type a::after {
+    content: "\e665";
+}
+/* 内容身体部分 */
+.article .article-bd {
+    overflow: hidden;
+}
+.article .article-bd .top {
+    height: 120px;
+}
+.article .article-bd .top a {
+    height: 120px;
+}
+.article .article-bd ul {
+    margin-top: 25px;
+}
+.article .article-bd ul li {
+    float: left;
+    overflow: hidden;
+    width: 290px;
+    height: 460px;
+    margin-right: 12px;
+    border: 1px solid transparent;
+}
+.article .article-bd ul li:nth-of-type(4n) {
+    margin-right: 0;
+}
+.article .article-bd ul li img {
+    height: 289px;
+    width: 290px;
+}
+.article .article-bd ul li p {
+    margin: 10px 10px 0 10px;
+}
+.article .article-bd ul li .price {
+    margin: 5px 10px 0 10px;
+}
+.article .article-bd ul li .price span:nth-of-type(1) {
+    font-size: 22px;
+    color: #e60012;
+}
+.article .article-bd ul li .price span:nth-of-type(2) {
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.article .article-bd ul li .work_off {
+    height: 16px;
+    margin: 10px 0 0 0px;
+}
+.article .article-bd ul li .work_off span:first-of-type {
+    float: left;
+    margin-left: 10px;
+}
+.article .article-bd ul li .work_off span:last-of-type {
+    float: right;
+    margin-right: 10px;
+}
+/* 进度条 */
+.article .article-bd ul li .work_off .box {
+    position: relative;
+    display: inline-block;
+    width: 135px;
+    height: 13px;
+    border: 2px solid #ed282e;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+.article .article-bd ul li .work_off .box .son {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #ed282e;
+    border-radius: 7px;
+    margin-bottom: 1px;
+    transition: all 1s;
+}
+.article .article-bd ul li .work_off .box .son:hover {
+    width: 100px;
+}
+.article .article-bd ul li .buy {
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
+    background-color: #b1191a;
+    margin-top: 7px;
+}
+.article .article-bd ul li .buy a {
+    font-size: 20px;
+    color: #fff;
+}
+.article .article-bd ul li:hover {
+    border: 1px solid #e12228;
+}

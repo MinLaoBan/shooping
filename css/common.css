@@ -1,0 +1,281 @@
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.r {
+    color: #c81623;
+}
+/* 导航栏 */
+header .header {
+    width: 100%;
+    background-color: #f1f1f1;
+}
+header {
+    height: 135px;
+}
+/* 导航栏头部 */
+header .top {
+    height: 30px;
+}
+header .top p {
+    float: left;
+    line-height: 30px;
+    font-size: 12px;
+    font-family: "宋体";
+}
+header .top .zhuCe {
+    float: left;
+    line-height: 30px;
+    color: red;
+    font-family: "宋体";
+}
+header .top ul {
+    float: right;
+}
+header .top ul li {
+    float: left;
+    height: 12px;
+    line-height: 12px;
+    margin-top: 8px;
+    margin-left: 15px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+/* 第一个li没有左外边距 */
+header .top ul li:first-of-type {
+    margin-left: 0;
+}
+/* 最后一个li没有右边框 */
+header .top ul li:last-of-type {
+    border-right: 0;
+}
+/* 添加下三角字体图标 */
+header .top ul li:nth-of-type(2)::after {
+    content:' \e665';
+}
+header .top ul li:nth-of-type(5)::after {
+    content:' \e665';
+}
+header .top ul li:nth-of-type(6)::after {
+    content:' \e665';
+}
+header .top ul li:nth-of-type(7)::after {
+    content:' \e665';
+}
+
+/* logo和搜索框部分 */
+header .bottom {
+    height: 55px;
+    margin-top: 27px;
+}
+header .bottom h1 a:first-of-type {
+    float: left;
+    display: block;
+    width: 177px;
+    height: 55px;
+    font-size: 0;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 2px 0px;
+}
+header .bottom .search {
+    float: left;
+    width: 540px;
+    height: 100%;
+    margin-left: 190px;
+}
+header .bottom .search input[type="search"] {
+    float: left;
+    width: 453px;
+    height: 32px;
+    outline: none;
+    border: 3px solid #b1191a;
+    border-right: 0;
+}
+header .bottom .search button {
+    float: left;
+    width: 86px;
+    height: 32px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #b1191a;
+    border: 0;
+}
+header .bottom .search ul {
+    margin-left: 10px;
+}
+header .bottom .search ul li {
+    float: left;
+    margin-right: 25px;
+}
+/* header .bottom .search ul li:first-of-type {
+    color: #c81623 !important;
+} */
+header .bottom .search ul li a {
+    font-size: 12px;
+}
+/* 我的购物车 */
+header .bottom .buy {
+    float: right;
+    position: relative;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    background-color: #f7f7f7;
+    /* box-shadow: .5px .5px; */
+    margin-right: 63px;
+}
+/* 购物车字体图标 */
+header .bottom .buy::before {
+    content: '\e682';
+    color: #b1191a;
+}
+/* 大于号字体图标 */
+header .bottom .buy::after {
+    content: '\e666';
+}
+/* 购物车右上角小圆 */
+header .bottom .buy .top_right {
+    position: absolute;
+    top: -6px;
+    left: 75px;
+    width: 15px;
+    height: 15px;
+    border-radius: 7px 7px 7px 0;
+    background-color: #e60012;
+}
+header .bottom .buy .top_right p {
+    position: absolute;
+    left: 3px;
+    text-align: center;
+    line-height: 15px;
+    color: #fff;
+}
+
+/* 尾部标签 */
+.footer {
+    margin-top: 38px;
+    height: 417px;
+    background-color: #f5f5f5;
+}
+
+/* 页面底部服务模块 */
+
+footer .mod_service ul {
+    float: left;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+footer .mod_service ul li {
+    position: relative;
+    float: left;
+    height: 110px;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 40px;
+
+}
+/* 正品保障 */
+footer .mod_service ul li>div {
+    width: 167px;
+    height: 50px;
+    margin-top: 25px;
+}
+/* 尾部标签的服务模块 h3和p标签转换为行内块元素 */
+footer .mod_service ul li h3,p {
+    display: inline-block;
+}
+footer .mod_service ul li h3 {
+    padding-right: 51px;
+    padding-top: 7px;
+}
+footer .mod_service ul li p {
+    margin-top: 2px;
+}
+footer .mod_service ul li div div[class^=icon] {
+    float: left;
+    top: 0;
+    width: 59px;
+    height: 52px;
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+}
+/* 正品保障 */
+footer .mod_service ul li .icon1{
+    background-position: -247px 0;
+}
+/* 急速物流 */
+footer .mod_service ul li .icon2{
+    background-position: -253px -53px;
+}
+/* 无忧售后 */
+footer .mod_service ul li .icon3{
+    background-position: -254px -104px;
+}
+footer .mod_service ul li:nth-last-of-type(3) p {
+    margin-right: 15px;
+}
+/* 特色服务 */
+footer .mod_service ul li .icon4{
+    background-position: -254px -156px;
+}
+
+/* 帮助中心 */
+footer .mod_service ul li .icon5{
+    background-position: -254px -209px;
+}
+footer .mod_service ul li:nth-of-type(n+3) p {
+    margin-right: 12px;
+}
+footer .mod_service ul li:last-of-type p {
+    margin-right: 30px;
+}
+
+/* 页面底部帮助模块 */
+footer .mod_help {
+
+    overflow: hidden;
+    width: 1200px;
+}
+footer .mod_help ul {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+footer .mod_help ul li {
+    float: left;
+    margin: 25px 0;
+    margin-left: 123px;
+}
+footer .mod_help ul li:first-of-type {
+    margin-left: 70px;
+}
+footer .mod_help ul li dl dt {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 17px;
+}
+footer .mod_help ul li dl img {
+    width: 73px;
+    height: 73px;
+}
+/* 页面底部版权模块 */
+footer .mod_copyright ul {
+    margin: 21px 0 0 117px;
+}
+footer .mod_copyright ul li {
+    float: left;
+}
+footer .mod_copyright ul li:nth-of-type(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #999;
+    margin: 3px 14px 0;
+}
+footer .mod_copyright p:nth-of-type(1) {
+    margin: 16px 0 0 239px;
+}
+footer .mod_copyright p:nth-of-type(2) {
+    margin: 10px 0 0 467px;
+}
